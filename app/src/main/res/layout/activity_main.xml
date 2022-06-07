@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Views.MainActivity">
+    //Dafana Fikri 10119275 IF7 07 Juni 2022
+
+    <include layout="@layout/toolbar_main_activity"/>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyClientes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floBtnAdd"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:foregroundGravity="center"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_add_float"
+        app:fabCustomSize="60dp">
+
+    </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+    <Button
+        android:id="@+id/btn_profile"
+        android:layout_marginTop="13dp"
+        android:text="Profile"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#09198E"
+        android:layout_width="150dp"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="13dp"
+        android:backgroundTint="#09198E"
+        android:text="Catatan"
+        android:textColor="#FFFFFF" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">UTS_10119275_AKB</string>
+
+    <string name="rucClient">Tanggal</string>
+    <string name="nameClient">Judul</string>
+    <string name="direcClient">Kategori</string>
+    <string name="empClient">Isi Catatan</string>
+    //Dafana Fikri 10119275 IF7 07 Juni 2022
+</resources>
